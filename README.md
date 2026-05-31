@@ -1,47 +1,50 @@
-# SO101 Intelligent Control — Final Project
+# SO101 Intelligent Control - Final Project
 
-## Tracks
-- **IL (Imitation Learning):** Carlos — caadmi
-- **VLA:** [nombres amigos]
+Proyecto de control inteligente con robot SO-101 para ordenar cables de colores.
+
+- IL / Imitation Learning: aprendizaje por demostracion basado en estados visuales.
+- VLA: control con instrucciones de lenguaje.
 
 ## Task
-Option 2: Laboratory Setup with Clip Wires — SO101 sorts colored cables into matching boxes based on scene state.
+Laboratory Setup with Clip Wires.
+El robot manipula cables tipo caiman y los coloca en cajas correspondientes.
+Colores principales (IL): rojo, amarillo, verde.
+Distractores: blanco, negro.
 
-## Hardware Setup
-
-### Windows PowerShell (admin) — run every session
-    usbipd attach --wsl --busid 1-1
-    usbipd attach --wsl --busid 2-2
-
-### WSL
-    source venv/bin/activate
-    bash scripts/setup_cameras.sh
-
-### Robot ports
-- /dev/ttyACM0 = SO101 follower (robot)
-- /dev/ttyACM1 = SO101 leader (teleop)
-
-## Installation
+## Quick Start
     git clone https://github.com/carloAdr1/so101-intelligent-control.git
     cd so101-intelligent-control
     python -m venv venv
     source venv/bin/activate
     pip install lerobot
 
-## Recording Demos
+## Hardware Configuration
+    /dev/ttyACM0 = SO101 follower / robot
+    /dev/ttyACM1 = SO101 leader / teleop
+    /dev/video0  = front camera
+    /dev/video2  = side camera
 
-### IL Track (3 situations x 100 episodes)
+## Docs (read in order)
+1. docs/SETUP_WSL_USB.md
+2. docs/CAMERA_TESTS.md
+3. docs/TELEOPERATION.md
+4. docs/CALIBRATION.md
+5. docs/DATASET_PLAN.md
+
+## Recording IL Dataset
     bash scripts/record_il.sh both_bw 100
     bash scripts/record_il.sh only_black 100
     bash scripts/record_il.sh only_white 100
 
-### VLA Track (3 colors x 100 episodes)
+## Recording VLA Dataset
     bash scripts/record_vla.sh red 100
     bash scripts/record_vla.sh yellow 100
     bash scripts/record_vla.sh green 100
 
-## Dataset
-Hosted on Hugging Face — links will be added after upload.
+## Data Policy
+Datasets, videos, checkpoints y modelos NO van a GitHub.
+Carpetas ignoradas: data/, outputs/, venv/
+Cada miembro graba su propia data local.
 
 ## Repository Structure
     so101-intelligent-control/
@@ -55,9 +58,14 @@ Hosted on Hugging Face — links will be added after upload.
         training/
         evaluation/
         robot_execution/
+    docs/
+        SETUP_WSL_USB.md
+        CAMERA_TESTS.md
+        TELEOPERATION.md
+        CALIBRATION.md
+        DATASET_PLAN.md
     results/
         metrics/
         plots/
         videos/
-    .gitignore
     README.md
