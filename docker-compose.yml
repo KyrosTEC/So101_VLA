@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  train:
+    build: .
+    image: so101-vla
+    command: python scripts/train.py
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./outputs:/app/outputs
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  evaluate:
+    build: .
+    image: so101-vla
+    command: python scripts/evaluate.py --offline
+    volumes:
+      - ./results:/app/results

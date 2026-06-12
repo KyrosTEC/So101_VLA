@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The Fortran compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /usr/bin/gfortran - skipped
+-- Performing Test C_SUPPORTS_DOLLAR
+-- Performing Test C_SUPPORTS_DOLLAR - Success
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/oscar/so101-intelligent-control/build/FortranCInterface
+[  2%] [32mBuilding Fortran object CMakeFiles/myfort.dir/mysub.f.o[0m
+[  6%] [32mBuilding Fortran object CMakeFiles/myfort.dir/mymodule.f90.o[0m
+[  6%] [32mBuilding Fortran object CMakeFiles/myfort.dir/my_module.f90.o[0m
+[  9%] [32mBuilding Fortran object CMakeFiles/myfort.dir/my_sub.f.o[0m
+[ 11%] [1m[32mLinking Fortran static library libmyfort.a[0m
+[ 11%] Built target myfort
+[ 13%] [32mBuilding C object CMakeFiles/symbols.dir/my_module_.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/symbols.dir/mymodule_.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/symbols.dir/MYMODULE.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/symbols.dir/MY_MODULE.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub_.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub__.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysub.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysub_.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysubSmymodule_.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_subSmy_module_.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/_QMmy_modulePmy_sub.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/_QMmymodulePmysub.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__module_my_module_my_sub.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__module_mymodule_mysub.c.o[0m
+[ 90%] [1m[32mLinking C static library libsymbols.a[0m
+[ 90%] Built target symbols
+[ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/main.F.o[0m
+[ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/call_sub.f.o[0m
+[ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/call_mod.f90.o[0m
+[100%] [1m[32mLinking Fortran executable FortranCInterface[0m
+[100%] Built target FortranCInterface

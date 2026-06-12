@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/oscar/so101-intelligent-control/build/TorchCodec': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/torchcodec/_core -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/TorchCodec
+[0.476s] -- The C compiler identification is GNU 11.4.0
+[0.658s] -- The CXX compiler identification is GNU 11.4.0
+[0.673s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.841s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.841s] -- Detecting C compile features
+[0.843s] -- Detecting C compile features - done
+[0.870s] -- Detecting CXX compiler ABI info
+[1.004s] -- Detecting CXX compiler ABI info - done
+[1.063s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.064s] -- Detecting CXX compile features
+[1.065s] -- Detecting CXX compile features - done
+[1.595s] -- Found Python: /home/oscar/so101-intelligent-control/venv/bin/python3.12 (found version "3.12.13") found components: Interpreter Development Development.Module Development.Embed
+[1.689s] -- Performing Test HAS_FLTO
+[2.001s] -- Performing Test HAS_FLTO - Success
+[2.002s] -- Found pybind11: /usr/include (found version "2.9.1")
+[2.025s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[2.025s]   By not providing "FindTorch.cmake" in CMAKE_MODULE_PATH this project has
+[2.025s]   asked CMake to find a package configuration file provided by "Torch", but
+[2.025s]   CMake did not find one.
+[2.025s] 
+[2.026s]   Could not find a package configuration file provided by "Torch" with any of
+[2.026s]   the following names:
+[2.026s] 
+[2.026s]     TorchConfig.cmake
+[2.026s]     torch-config.cmake
+[2.027s] 
+[2.027s]   Add the installation prefix of "Torch" to CMAKE_PREFIX_PATH or set
+[2.027s]   "Torch_DIR" to a directory containing one of the above files.  If "Torch"
+[2.027s]   provides a separate development package or SDK, be sure it has been
+[2.027s]   installed.
+[2.027s] 
+[2.027s] [0m
+[2.027s] -- Configuring incomplete, errors occurred!

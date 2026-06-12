@@ -1,0 +1,15 @@
+[0.031s] Invoking command in '/home/oscar/so101-intelligent-control/build/IntelFortranImplicit': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/IntelVSImplicitPath -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/IntelFortranImplicit
+[0.525s] -- The Fortran compiler identification is GNU 11.4.0
+[0.569s] -- Detecting Fortran compiler ABI info
+[0.777s] -- Detecting Fortran compiler ABI info - done
+[0.820s] -- Check for working Fortran compiler: /usr/bin/f95 - skipped
+[0.840s] -- Configuring done (0.5s)
+[0.845s] -- Generating done (0.0s)
+[0.848s] -- Build files have been written to: /home/oscar/so101-intelligent-control/build/IntelFortranImplicit
+[0.854s] Invoked command in '/home/oscar/so101-intelligent-control/build/IntelFortranImplicit' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/IntelVSImplicitPath -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/IntelFortranImplicit
+[0.858s] Invoking command in '/home/oscar/so101-intelligent-control/build/IntelFortranImplicit': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake --build /home/oscar/so101-intelligent-control/build/IntelFortranImplicit -- -j8 -l8
+[1.197s] [ 33%] [1m[34mGenerating output.cmake[0m
+[1.224s] [ 66%] [32mBuilding Fortran object CMakeFiles/FortranLib.dir/hello.f.o[0m
+[1.253s] [100%] [1m[32mLinking Fortran static library libFortranLib.a[0m
+[1.279s] [100%] Built target FortranLib
+[1.293s] Invoked command in '/home/oscar/so101-intelligent-control/build/IntelFortranImplicit' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake --build /home/oscar/so101-intelligent-control/build/IntelFortranImplicit -- -j8 -l8

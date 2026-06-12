@@ -1,0 +1,64 @@
+[0.034s] Invoking command in '/home/oscar/so101-intelligent-control/build/FortranCInterface': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FortranCInterface -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/FortranCInterface
+[0.491s] -- The C compiler identification is GNU 11.4.0
+[0.637s] -- The Fortran compiler identification is GNU 11.4.0
+[0.675s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.823s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.824s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.854s] -- Detecting Fortran compiler ABI info
+[1.055s] -- Detecting Fortran compiler ABI info - done
+[1.092s] -- Check for working Fortran compiler: /usr/bin/gfortran - skipped
+[1.106s] -- Performing Test C_SUPPORTS_DOLLAR
+[1.243s] -- Performing Test C_SUPPORTS_DOLLAR - Success
+[1.253s] -- Configuring done (0.9s)
+[1.287s] -- Generating done (0.0s)
+[1.291s] -- Build files have been written to: /home/oscar/so101-intelligent-control/build/FortranCInterface
+[1.298s] Invoked command in '/home/oscar/so101-intelligent-control/build/FortranCInterface' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FortranCInterface -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/FortranCInterface
+[1.301s] Invoking command in '/home/oscar/so101-intelligent-control/build/FortranCInterface': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake --build /home/oscar/so101-intelligent-control/build/FortranCInterface -- -j8 -l8
+[1.574s] [  2%] [32mBuilding Fortran object CMakeFiles/myfort.dir/mysub.f.o[0m
+[1.574s] [  6%] [32mBuilding Fortran object CMakeFiles/myfort.dir/mymodule.f90.o[0m
+[1.574s] [  6%] [32mBuilding Fortran object CMakeFiles/myfort.dir/my_module.f90.o[0m
+[1.578s] [  9%] [32mBuilding Fortran object CMakeFiles/myfort.dir/my_sub.f.o[0m
+[1.613s] [ 11%] [1m[32mLinking Fortran static library libmyfort.a[0m
+[1.634s] [ 11%] Built target myfort
+[1.655s] [ 13%] [32mBuilding C object CMakeFiles/symbols.dir/my_module_.c.o[0m
+[1.655s] [ 20%] [32mBuilding C object CMakeFiles/symbols.dir/mymodule_.c.o[0m
+[1.655s] [ 20%] [32mBuilding C object CMakeFiles/symbols.dir/MYMODULE.c.o[0m
+[1.656s] [ 20%] [32mBuilding C object CMakeFiles/symbols.dir/MY_MODULE.c.o[0m
+[1.656s] [ 23%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub.c.o[0m
+[1.658s] [ 25%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub_.c.o[0m
+[1.659s] [ 27%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_sub__.c.o[0m
+[1.664s] [ 30%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o[0m
+[1.701s] [ 32%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysub.c.o[0m
+[1.707s] [ 34%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysub_.c.o[0m
+[1.715s] [ 37%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o[0m
+[1.717s] [ 39%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o[0m
+[1.717s] [ 41%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o[0m
+[1.720s] [ 44%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o[0m
+[1.740s] [ 46%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o[0m
+[1.746s] [ 48%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o[0m
+[1.756s] [ 51%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o[0m
+[1.767s] [ 53%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o[0m
+[1.781s] [ 55%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o[0m
+[1.785s] [ 58%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o[0m
+[1.787s] [ 60%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o[0m
+[1.792s] [ 62%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o[0m
+[1.801s] [ 65%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o[0m
+[1.819s] [ 67%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o[0m
+[1.821s] [ 69%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mysubSmymodule_.c.o[0m
+[1.823s] [ 72%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/my_subSmy_module_.c.o[0m
+[1.849s] [ 74%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o[0m
+[1.853s] [ 76%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o[0m
+[1.857s] [ 79%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o[0m
+[1.863s] [ 81%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/_QMmy_modulePmy_sub.c.o[0m
+[1.874s] [ 83%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/_QMmymodulePmysub.c.o[0m
+[1.880s] [ 86%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__module_my_module_my_sub.c.o[0m
+[1.882s] [ 88%] [32mBuilding C object CMakeFiles/symbols.dir/symbols/__module_mymodule_mysub.c.o[0m
+[1.929s] [ 90%] [1m[32mLinking C static library libsymbols.a[0m
+[1.962s] [ 90%] Built target symbols
+[1.977s] [ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/main.F.o[0m
+[1.977s] [ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/call_sub.f.o[0m
+[1.978s] [ 97%] [32mBuilding Fortran object CMakeFiles/FortranCInterface.dir/call_mod.f90.o[0m
+[2.008s] [100%] [1m[32mLinking Fortran executable FortranCInterface[0m
+[2.073s] [100%] Built target FortranCInterface

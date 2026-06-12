@@ -1,0 +1,11 @@
+-- The Fortran compiler identification is GNU 11.4.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /usr/bin/f95 - skipped
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/oscar/so101-intelligent-control/build/IntelFortranImplicit
+[ 33%] [1m[34mGenerating output.cmake[0m
+[ 66%] [32mBuilding Fortran object CMakeFiles/FortranLib.dir/hello.f.o[0m
+[100%] [1m[32mLinking Fortran static library libFortranLib.a[0m
+[100%] Built target FortranLib

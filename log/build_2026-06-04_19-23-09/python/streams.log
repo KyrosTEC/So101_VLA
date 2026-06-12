@@ -1,0 +1,48 @@
+[0.473s] Invoking command in '/home/oscar/so101-intelligent-control/build/python': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/pyarrow/src/arrow/python -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/python
+[0.749s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.749s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.750s]   contain a literal, direct call to the project() command.  Add a line of
+[0.750s]   code such as
+[0.750s] 
+[0.750s]     project(ProjectName)
+[0.750s] 
+[0.751s]   near the top of the file, but after cmake_minimum_required().
+[0.751s] 
+[0.751s]   CMake is pretending there is a "project(Project)" command on the first
+[0.751s]   line.
+[0.751s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.751s] [0m
+[0.752s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.752s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.752s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.752s]   both commands.
+[0.752s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.752s] [0m
+[0.855s] -- The C compiler identification is GNU 11.4.0
+[1.048s] -- The CXX compiler identification is GNU 11.4.0
+[1.072s] -- Detecting C compiler ABI info
+[1.194s] -- Detecting C compiler ABI info - done
+[1.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.237s] -- Detecting C compile features
+[1.239s] -- Detecting C compile features - done
+[1.262s] -- Detecting CXX compiler ABI info
+[1.406s] -- Detecting CXX compiler ABI info - done
+[1.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.439s] -- Detecting CXX compile features
+[1.440s] -- Detecting CXX compile features - done
+[1.450s] [31mCMake Error at CMakeLists.txt:18 (arrow_install_all_headers):
+[1.450s]   Unknown CMake command "arrow_install_all_headers".
+[1.451s] 
+[1.451s] [0m
+[1.451s] [31mCMake Error in CMakeLists.txt:
+[1.451s]   No cmake_minimum_required command is present.  A line of code such as
+[1.451s] 
+[1.451s]     cmake_minimum_required(VERSION 4.1)
+[1.452s] 
+[1.452s]   should be added at the top of the file.  The version specified may be lower
+[1.452s]   if you wish to support older CMake versions for this project.  For more
+[1.452s]   information run "cmake --help-policy CMP0000".
+[1.452s] 
+[1.453s] [0m
+[1.453s] -- Configuring incomplete, errors occurred!
+[1.457s] Invoked command in '/home/oscar/so101-intelligent-control/build/python' returned '1': CONDA_PROMPT_MODIFIER=(base) PS1=((venv) ) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv) /home/oscar/so101-intelligent-control/venv/bin/cmake /home/oscar/so101-intelligent-control/venv/lib/python3.12/site-packages/pyarrow/src/arrow/python -DCMAKE_INSTALL_PREFIX=/home/oscar/so101-intelligent-control/install/python
