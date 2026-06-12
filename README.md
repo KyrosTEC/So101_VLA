@@ -69,3 +69,4 @@ Cada miembro graba su propia data local.
         plots/
         videos/
     README.md
+# So101_VLA
