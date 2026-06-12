@@ -161,9 +161,9 @@ https://github.com/KyrosTEC/So101_VLA/raw/main/results/videos/demo_all_colors.mp
 
 | Color | Video |
 |-------|-------|
-| 🔴 Rojo | [demo_red.mp4](results/videos/demo_red.mp4) *(próximamente)* |
-| 🟡 Amarillo | [demo_yellow.mp4](results/videos/demo_yellow.mp4) *(próximamente)* |
-| 🟢 Verde | [demo_green.mp4](results/videos/demo_green.mp4) *(próximamente)* |
+| 🔴 Rojo | [demo_red.mp4](results/videos/demo_red.mp4) |
+| 🟡 Amarillo | [demo_yellow.mp4](results/videos/demo_yellow.mp4)  |
+| 🟢 Verde | [demo_green.mp4](results/videos/demo_green.mp4) |
 
 ---
 
