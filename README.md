@@ -50,7 +50,7 @@ Donde:
 
 | Vista superior (cámara top) | Vista lateral (cámara front) |
 |:---:|:---:|
-| ![Setup top](results/setup_top.png?raw=true) | ![Setup side](results/setup_side.png?raw=true) |
+| ![Setup top](results/setup_top.png) | ![Setup side](results/setup_side.png) |
 
 El set-up incluye el robot SO-101, una barra de conexiones con cables de colores (rojo, amarillo, verde) y cajas Lego de clasificación por color.
 
@@ -141,11 +141,11 @@ Donde `A_t` son las acciones expertas, `ε` es ruido y `τ` controla la interpol
 
 | Tasa de éxito por color | Desglose por color |
 |:---:|:---:|
-| ![Success rate](results/plots/success_rate.png?raw=true) | ![Breakdown](results/plots/results_breakdown.png?raw=true) |
+| ![Success rate](results/plots/success_rate.png) | ![Breakdown](results/plots/results_breakdown.png) |
 
 ### Curva de pérdida durante entrenamiento
 
-![Training loss](results/plots/training_loss.png?raw=true)
+![Training loss](results/plots/training_loss.png)
 
 ---
 
